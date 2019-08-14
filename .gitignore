@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# RNN/mnist
+# AutoEncoder/mnist
+mnist
+.idea
+HMM/data/trainCorpus.txt_utf8.txt
+data_ign
