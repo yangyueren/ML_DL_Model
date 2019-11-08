@@ -10,6 +10,7 @@ def load_data_set():
     #            [2, 0, 0],
     #            [2, 1, 1],
     #            [2, 2, 0]]
+    # 圆的 红的 类别
     dataSet = [
         [1,1,1],
         [1,0,0],
@@ -130,6 +131,8 @@ def prune(classfication_tree, test_data):
     :return:
     """
     pass
+
+
 if __name__ == '__main__':
     data_set, labels = load_data_set()
     classification_tree = create_classfication_tree(data_set)

@@ -9,6 +9,8 @@ for a feedforward neural network.
 import numpy as np
 import random
 
+__reference__ = 'https://github.com/edvardHua/Articles/blob/master/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%AD%20BP%20%E7%AE%97%E6%B3%95%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%20Python%20%E5%AE%9E%E7%8E%B0%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/network.py'
+
 class Network(object):
 
     def __init__(self, sizes):

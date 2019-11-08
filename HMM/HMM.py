@@ -125,7 +125,7 @@ class HMM(object):
         else:
             (prob, state) = max([(v[len(text) - 1][y], y) for y in states])
         #     a = [(1,9),(2,6),(4,5)]
-        #     b, c = max(a) 其中b = 4, c = 5, 说明max函数返回的是一个tuple
+        #     b, c = max(a) 其中b = 4, c = 5, 说明max函数返回的是一个tuple, 先比较第一个，再比较第二个
 
         return prob, path[state]
 
@@ -154,7 +154,7 @@ class HMM(object):
 if __name__ == "__main__":
     hmm = HMM()
     # hmm.train('data/trainCorpus.txt_utf8.txt')
-    text = "这件事情他做的不对"
+    text = "这件事情他应该问问你"
     # res = hmm.cut(text)
     # print(str(list(res)))
     f = hmm.cut(text)
