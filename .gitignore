@@ -112,3 +112,5 @@ HMM/data/trainCorpus.txt_utf8.txt
 data_ign
 *.ppt
 *.pptx
+
+others/data/
