@@ -14,3 +14,8 @@ class Inn():
 a = Inn()
 print(a._pro)
 print(a._Inn__stu)
+
+
+votes = dict()
+#votes.items()是把字典转为可迭代的对象, operator.itemgetter(1)是按value排序
+votes = sorted(votes.items(), key=operator.itemgetter(1), reverse=True)
